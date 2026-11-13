@@ -3,7 +3,7 @@ class Rocket{
     this.x = x;
     this.y = y;
     this.z = z;
-    this.dy = 0.01;
+    this.dy = 0.03;
     
     this.obj = document.createElement("a-entity");
     
