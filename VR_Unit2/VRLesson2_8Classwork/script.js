@@ -10,7 +10,6 @@ window.addEventListener("DOMContentLoaded",function() {
 
 function loop(){
   target.a += target.da;
-
   target.setAttribute("rotation",{x:target.a, y:0, z: 0});
 
   window.requestAnimationFrame( loop );
